@@ -5,7 +5,9 @@ public class ATM {
 	public static void main(String[] args) throws IOException {
 		OptionMenu optionMenu = new OptionMenu();
 		introduction();
+		optionMenu.readFileAndStore();
 		optionMenu.mainMenu();
+
 	}
 
 	public static void introduction() {
